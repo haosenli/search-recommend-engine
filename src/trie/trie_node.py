@@ -13,8 +13,7 @@ class TrieNode:
     def __init__(self, 
                  letter: str, 
                  children: Iterable[TrieNode]=[], 
-                 is_word: bool=False,
-                 is_tag: bool=False) -> None:
+                 is_word: bool=False) -> None:
         """Constructs a TrieNode object from the given data.
         
         Args:

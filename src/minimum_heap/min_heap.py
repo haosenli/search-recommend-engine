@@ -1,4 +1,4 @@
-"""This file contains MaxHeap, a max heap data strucutre 
+"""This file contains MinHeap, a min-heap data strucutre 
 capable of changing item priorities.
 
 Example Usage:
@@ -26,7 +26,7 @@ from src.minimum_heap.priority_node import PriorityNode
 
 
 class MinHeap:
-    """This class provides a max heap data structure with the ability
+    """This class provides a min heap data structure with the ability
     to change item priorities. It uses the PriorityNode class to store
     node information.
     
@@ -35,7 +35,7 @@ class MinHeap:
         item_dict: A dict with any item as keys, and int indices as values.
     """
     def __init__(self, data: list[tuple[Hashable, float]]=[]) -> None:
-        """Constructs a MaxHeap object.
+        """Constructs a MinHeap object.
         
         Args:
             data: An (optional) list of tuple in the following format: 
